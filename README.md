@@ -49,6 +49,10 @@ pip install torch diffusers TTS moviepy
 - Images and audio are only generated if not already present.
 - Each video consists of three landmark segments.
 
-## License
+## Example Videos
 
-MIT
+You can view the generated videos by clicking the links below:
+
+- [Video 1](video1.mp4)
+- [Video 2](video2.mp4)
+- [Video 3](video3.mp4)
