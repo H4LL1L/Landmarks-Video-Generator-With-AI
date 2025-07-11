@@ -1,10 +1,10 @@
-# Turkish Landmarks Video Generator
+# Landmarks Video Generator
 
-This project automatically generates short narrated videos of famous Turkish landmarks using state-of-the-art AI models for image generation (Stable Diffusion), text-to-speech (TTS), and video editing (MoviePy).
+This project automatically generates short narrated videos of famous landmarks using state-of-the-art AI models for image generation (Stable Diffusion), text-to-speech (TTS), and video editing (MoviePy).
 
 ## Features
 
-- **AI Image Generation:** Creates ultra-realistic images of Turkish landmarks using Stable Diffusion.
+- **AI Image Generation:** Creates ultra-realistic images of landmarks using Stable Diffusion.
 - **Text-to-Speech Narration:** Generates English audio descriptions for each landmark.
 - **Automated Video Creation:** Combines images and narration into three themed videos.
 - **Efficient Processing:** Skips already generated files for faster reruns.
@@ -39,7 +39,7 @@ pip install torch diffusers TTS moviepy
 
 1. **Run the script:**
    ```bash
-   python turkish_landmarks_video_generator.py
+   python landmarks_video_generator.py
    ```
 2. The script will generate images, audio, and three videos (`video1.mp4`, `video2.mp4`, `video3.mp4`).
 
